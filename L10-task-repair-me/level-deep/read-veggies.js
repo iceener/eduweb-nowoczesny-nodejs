@@ -1,10 +1,11 @@
-const { readFile } = require('node:fs/promises');
-const path = require('node:path');
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { makeDirname } from "../make-dirname.js";
 
-module.exports = {
-    async getVeggies() {
-        const veggies = await readFile(path.join(__dirname, 'vegetables.txt'), {encoding: 'utf-8'});
 
-        return veggies.split(',');
-    }
+export async function getVeggies() {
+    const veggies = await readFile(path.join(makeDirname(import.meta.url), 'vegetables.txt'), {encoding: 'utf-8'});
+
+    return veggies.split(',');
 }
+

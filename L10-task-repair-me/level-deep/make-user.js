@@ -1,4 +1,5 @@
-const { makeRandomId, luckyNumber } = require("L10-task-repair-me/level-deep/string.utils.js");
+import { luckyNumber, makeRandomId } from "./string.utils.js";
+
 
 export default function makeUser(name = '', lastName = '') {
 

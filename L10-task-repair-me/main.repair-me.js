@@ -1,7 +1,7 @@
-import { getVeggies } from "./level-deep/read-veggies";
+import { getVeggies } from "./level-deep/read-veggies.js";
+import makeUser from "./level-deep/make-user.js";
 
-
-const newUser = await import("./level-deep/make-user").default("Michał", "Kowalski")
+const newUser = makeUser("Michał", "Kowalski")
 
 console.log("New user added to DB...")
 
