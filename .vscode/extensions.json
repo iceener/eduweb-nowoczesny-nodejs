@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "leizongmin.node-module-intellisense",
+    "christian-kohler.npm-intellisense",
+    "vscode-icons-team.vscode-icons",
+    "christian-kohler.path-intellisense",
+    "ritwickdey.LiveServer",
+    "achil.vscode-javascript-repl",
+    "WallabyJs.quokka-vscode",
+    "eamodio.gitlens",
+    "xabikos.JavaScriptSnippets",
+    "mikestead.dotenv",
+    "humao.rest-client",
+    "editorconfig.editorconfig"
+  ]
+}

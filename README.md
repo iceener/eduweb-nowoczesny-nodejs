@@ -26,3 +26,28 @@ choose one:
 
 > Just install the obligatory things for now.  
 > Later on, in this course - we will cover other things as well.
+
+### Visual Studio Code extensions:
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
+- [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [JavaScript REPL](https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [REST client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+    
+### JetBrains extensions:
+
+- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
+- [Quokka.js](https://plugins.jetbrains.com/plugin/9667-quokka)
+
+Should be configured (out of the box):
+
+- [NodeJS](https://plugins.jetbrains.com/plugin/6098-nodejs)
+- [Prettier](https://plugins.jetbrains.com/plugin/10456-prettier)
