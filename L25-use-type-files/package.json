@@ -1,0 +1,21 @@
+{
+  "name": "l25-use-type-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "typescript": "^5.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
