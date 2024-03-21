@@ -10,3 +10,7 @@
 - [ ] prepare scripts
 - [ ] ⭐ install and config [prettier](https://prettier.io/)
 - [ ] ⭐ install and config [eslint](https://eslint.org/)
+   
+
+---
+prettier help: [ESlint integrations](https://prettier.io/docs/en/related-projects.html#eslint-integrations)
