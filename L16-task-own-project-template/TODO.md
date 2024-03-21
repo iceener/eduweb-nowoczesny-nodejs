@@ -3,13 +3,13 @@
 ---
 ## Own Project template starter
 
-- [ ] initialize project
-- [ ] create proper structure + `esm`
-- [ ] make starter file
-- [ ] prepare watch dev mode (`nodemon`)
-- [ ] prepare scripts
-- [ ] ⭐ install and config [prettier](https://prettier.io/)
-- [ ] ⭐ install and config [eslint](https://eslint.org/)
+- [x] initialize project
+- [x] create proper structure + `esm`
+- [x] make starter file
+- [x] prepare watch dev mode (`nodemon`)
+- [x] prepare scripts
+- [x] ⭐ install and config [prettier](https://prettier.io/)
+- [x] ⭐ install and config [eslint](https://eslint.org/)
    
 
 ---
