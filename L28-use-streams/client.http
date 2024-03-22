@@ -1,0 +1,10 @@
+GET http://localhost:3000
+
+### Send me body
+
+POST http://localhost:3000/send-body
+Content-Type: application/json
+
+{
+  "name": "Michał"
+}
