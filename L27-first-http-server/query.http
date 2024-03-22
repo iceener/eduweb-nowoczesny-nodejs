@@ -1,0 +1,12 @@
+### Send me test GET
+
+GET http://localhost:3000
+
+### Send me static asset
+
+GET http://localhost:3000/segment1/segment2/style.cssx
+X-Test: hello
+
+### Send me some body...  TODO:
+
+POST http://localhost:3000
