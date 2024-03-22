@@ -1,0 +1,10 @@
+GET http://localhost:3000
+
+### Sign up to newsletter:
+
+POST http://localhost:3000/newsletter/sing-up
+Content-Type: application/json
+
+{
+    "email": "not@valid"
+}

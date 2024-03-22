@@ -4,13 +4,13 @@
 
 ## Sing me up to newsletter API
 
-- [ ] generate new `hono` app
-- [ ] prepare `json` welcome message at `/`
-- [ ] prepare POST endpoint to sign up for newsletter
-- [ ] expect user to give valid `email` address in `body`
-- [ ] prepare `.http` file to test endpoints out.
-- [ ] give error if `email` already exist in our in memory storage
-- [ ] ⭐ validate if `email` format is correct:
+- [x] generate new `hono` app
+- [x] prepare `json` welcome message at `/`
+- [x] prepare POST endpoint to sign up for newsletter
+- [x] expect user to give valid `email` address in `body`
+- [x] prepare `.http` file to test endpoints out.
+- [x] give error if `email` already exist in our in memory storage
+- [x] ⭐ validate if `email` format is correct:
   - use `hono` build-in: [validation](https://hono.dev/guides/validation)
-  - [ ] response with error message + `400` on validation error
+  - [x] response with error message + `400` on validation error
 
