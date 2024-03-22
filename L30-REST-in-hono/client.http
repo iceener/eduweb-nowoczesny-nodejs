@@ -1,0 +1,17 @@
+### All users
+GET http://localhost:3000/api/users
+
+### One user by uuid
+GET http://localhost:3000/api/users/QC6_A3m8RT
+
+### Find users with name
+GET http://localhost:3000/api/users?name=michal
+
+# Let's challenge hono!
+### Send new user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "Lukas"
+}
