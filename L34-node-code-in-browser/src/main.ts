@@ -6,6 +6,8 @@ if (app) {
   app.append(App());
 }
 
+console.log("! ???")
+
 // This is SPA: Single Page Application
 // 1. whole routing (if any) is happening client side
 // 2. we drop (preventDefault()) for native links and forms

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "live-server --ignore=node_modules,src .",
+    "build": "tsc --watch"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.4.3"
+  },
+  "type": "module"
+}
