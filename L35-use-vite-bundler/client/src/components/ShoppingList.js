@@ -1,5 +1,5 @@
 import { div } from "../render/create-element.js";
-import { registerHandler } from "../model/shopping-list.data.js";
+import { registerHandler } from "../model/shopping-list.data.ts";
 import { ShoppingListItem } from "./ShoppingListItem.js";
 
 export function ShoppingList() {

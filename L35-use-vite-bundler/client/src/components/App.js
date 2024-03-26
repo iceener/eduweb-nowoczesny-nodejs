@@ -2,7 +2,7 @@ import { article, div, section } from '../render/create-element.js';
 import { Header } from "./Header.js";
 import { ItemInput } from "./ItemInput.js";
 import { ShoppingList } from "./ShoppingList.js";
-import { addToList } from "../model/shopping-list.data.js";
+import { addToList } from "../model/shopping-list.data.ts";
 
 // Concept like: React component + JSX (instead used create-element helpers)
 export function App() {

@@ -1,12 +1,16 @@
 import 'bulma/css/bulma.css'
-import { App } from "./components/App.js";
 
 // Concept like: ReactDOM (append App to document)
 const app = document.querySelector("#app");
-if (app) {
-  app.append(App());
-}
 
+
+import("./components/App.js").then(m => {
+  if (app) {
+    app.append(m.App());
+  }
+})
+
+console.log('!')
 // This is SPA: Single Page Application
 // 1. whole routing (if any) is happening client side
 // 2. we drop (preventDefault()) for native links and forms
