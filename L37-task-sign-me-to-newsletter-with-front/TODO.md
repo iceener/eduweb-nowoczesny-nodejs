@@ -4,19 +4,19 @@
 
 ## Sing me up to newsletter `client`
 
-- [ ] generate new `vite` app with `typescript` as an `client`
-- [ ] run lesson `L33` as `server` side
-- [ ] choose your favourite framework 
+- [x] generate new `vite` app with `typescript` as an `client`
+- [x] run lesson `L33` as `server` side
+- [x] choose your favourite framework 
   - or Vanilla with our code from previous lessons
   - if you choose code from `render/create-element`, make sure to use kind of _EventEmitter_ to simplify the flow
   - good choice is: https://www.npmjs.com/package/mitt
-- [ ] install `bulma` and add to app
+- [x] install `bulma` and add to app
   - https://bulma.io
   - https://www.npmjs.com/package/bulma
-- [ ] install `axios` to communicate with  
+- [x] install `axios` to communicate with  
   - https://axios-http.com/docs/intro
   - https://www.npmjs.com/package/axios
-- [ ] apply this template for website:
+- [x] apply this template for website:
 ```html
   <div class="is-flex is-justify-content-center mt-6">
   <div class="column is-two-fifths">
@@ -41,7 +41,7 @@
   </div>
 </div>
   ```
-- [ ] if you use "our" `render/create-element` this will help you out:
+- [x] if you use "our" `render/create-element` this will help you out:
 ```javascript
 const notify = div('notification is-success', ['Thank you for sign up to our newsletter.'])
 notify.style.visibility = 'hidden';
@@ -63,10 +63,10 @@ const template = div('is-flex is-justify-content-center mt-6', [
   ])
 ])
 ```
-- [ ] remember to add proper `label` and `button` factory function elements.
-- [ ] split code to separate `components`
-- [ ] (if you are not using frameworks) use `mitt` to exchange data between `components`
-- [ ] add [cors](https://hono.dev/middleware/builtin/cors) to `L33` server in order to register this front-end (needed for Ajax requests):
+- [x] remember to add proper `label` and `button` factory function elements.
+- [x] split code to separate `components`
+- [x] (if you are not using frameworks) use `mitt` to exchange data between `components`
+- [x] add [cors](https://hono.dev/middleware/builtin/cors) to `L33` server in order to register this front-end (needed for Ajax requests):
 ```javascript
 import { cors } from 'hono/cors'
 // ...
@@ -75,9 +75,9 @@ const app = new Hono()
 app.use(cors())
 // ...
 ```
-- [ ] run server from `L33`
-- [ ] when user press `Sign up` - send `axios` `POST` message to http://localhost:3000/newsletter/sing-up
-  - [ ] with proper value from `input`
-  - [ ] if server responds with `200` - show `.notification.is-success` 
-  - [ ] if server responds with `400` - show `.help.is-danger` with error `message` from server 
+- [x] run server from `L33`
+- [x] when user press `Sign up` - send `axios` `POST` message to http://localhost:3000/newsletter/sing-up
+  - [x] with proper value from `input`
+  - [x] if server responds with `200` - show `.notification.is-success` 
+  - [x] if server responds with `400` - show `.help.is-danger` with error `message` from server 
 
