@@ -1,0 +1,11 @@
+{
+  "name": "l39-proper-path-resolution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/read-my-file.mjs"
+  },
+  "private": true,
+  "type": "module"
+}
