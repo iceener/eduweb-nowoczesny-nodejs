@@ -10,3 +10,26 @@
 - https://github.com/coreybutler/nvm-windows  
 and then:  
 - https://github.com/coreybutler/nvm-windows/releases
+              
+
+### Commands
+
+```shell
+nvm install 20.x
+```
+
+```shell
+nvm --help
+```
+
+```shell
+nvm list
+```
+
+```shell
+nvm use 20
+```
+
+```shell
+node -v
+```
