@@ -1,0 +1,5 @@
+<ul>
+    <% users.forEach((user) => { %>
+       <li <%- user.selected ? 'class="active"' : ''%>> <%= user.name %> </li>
+    <% }); %>
+</ul>
