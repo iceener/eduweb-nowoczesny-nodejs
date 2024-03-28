@@ -2,11 +2,16 @@
   "name": "l43-",
   "version": "1.0.0",
   "scripts": {
+    "build:watch": "tsc --watch",
+    "dev:config": "nodemon -x tsx --ext ejs,ts src/main.ts",
+    "dev": "nodemon src/main.ts"
   },
   "type": "module",
   "devDependencies": {
     "@types/ejs": "^3.1.5",
     "@types/node": "^20.11.30",
+    "nodemon": "^3.1.0",
+    "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   },
   "dependencies": {

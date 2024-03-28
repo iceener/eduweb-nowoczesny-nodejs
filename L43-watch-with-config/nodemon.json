@@ -1,0 +1,4 @@
+{
+  "exec": "tsx",
+  "ext": "ts,ejs"
+}
